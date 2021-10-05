@@ -1,0 +1,12 @@
+"""Faça um programa similar ao programa do exercício 1 acima. Nesse novo programa, ao final da execução desse laço de repetição você precisa imprimir na tela do usuário qual foi o menor número informado durante a execução do laço de repetição."""
+
+menor = 1
+for i in range(0,3):
+  num = int(input("Escolha um número inteiro:"))
+  print("\nÍndice:",i , " Número escolhido:", num)
+  if (num < menor):
+     menor = num
+  
+print ("Menor número:", menor) 
+  
+  
