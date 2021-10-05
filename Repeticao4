@@ -1,0 +1,10 @@
+"""Solicite ao usuário dois números inteiros e imprimir na tela do usuário os números entre os dois números solicitados. Ex: n1=2 e n2=5 caso você use esses dois número o deverá aparecer na tela do usuário a seguinte sequência: 2, 3, 4, 5."""
+
+numero_1 = int(input("Entre com o primeiro número: "))
+numero_2 = int(input("Entre com o segundo número: "))
+
+contador = numero_1
+
+while (contador <= numero_2):
+       print(contador)
+       contador   = contador + 1
