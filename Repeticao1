@@ -1,0 +1,7 @@
+"""Com a ajuda de uma laço de repetição, solicite ao usuário um número inteiro e a cada iteração desse laço. O número de repetições deve ser 10. A cada iteração imprimir na tela a sequência do laço e o número que o usuário informou naquela iteração."""
+
+for i in range(0,10):
+  num = int(input("Escolha um número inteiro:"))
+  print("\nÍndice:",i , " Número escolhido:", num)
+  
+  
